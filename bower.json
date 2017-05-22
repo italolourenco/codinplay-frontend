@@ -1,0 +1,31 @@
+{
+  "name": "frontend",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Italo Lourenço"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^1.0.3",
+    "angular-loader": "^1.6.4",
+    "angular-bootstrap": "^2.5.0",
+    "angular-animate": "^1.6.4",
+    "angular-filter": "^0.5.16",
+    "animate.css": "^3.5.2",
+    "angular-toastr": "^2.1.1",
+    "font-awesome": "^4.7.0",
+    "html5-boilerplate": "^5.3.0",
+    "restangular": "^1.6.1",
+    "bootstrap": "^3.3.7"
+  }
+}
