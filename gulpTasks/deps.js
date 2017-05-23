@@ -16,8 +16,8 @@ gulp.task('deps.js', function() {
     'bower_components/angular-toastr/dist/angular-toastr.min.js',
     'bower_components/angular-ui-router/release/angular-ui-router.min.js',
     'bower_components/restangular/dist/restangular.min.js',
-    'bower_components/bootstrap/dist/js/bootstrap.min.js',
-    'bower_components/jquery/dist/jquery.min.js'
+    'bower_components/jquery/dist/jquery.min.js',
+    'bower_components/bootstrap/dist/js/bootstrap.min.js'
   ])
   .pipe(uglify())
   .pipe(concat('deps.min.js'))

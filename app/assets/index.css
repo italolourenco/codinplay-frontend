@@ -1,0 +1,43 @@
+.setWhite{
+  color:white;
+}
+
+.setRed{
+  color: red;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.navbar .navbar-brand img {
+  margin-top: -3px;
+}
+
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-text {
+  color: #feddc7;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand-centered {
+    position: absolute;
+    left: 50%;
+    display: block;
+    width: 160px;
+    text-align: center;
+  }
+  .navbar > .container .navbar-brand-centered,
+  .navbar > .container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+  }
+
+  .navMarginTop{
+    margin-top: 2%;
+    width: 40%;
+  }
+
+  .marginRightMenu{
+    margin-right: 15%;
+  }
+}
