@@ -40,4 +40,40 @@
   .marginRightMenu{
     margin-right: 15%;
   }
+
+  #header {
+    padding: 30px 0 60px;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+#banner.jumbotron a {
+  color: #fff;
+}
+
+#banner.jumbotron h1 {
+  font-size: 34px;
+}
+
+#banner.jumbotron p {
+  font-size: 24px;
+  padding: 20px 0 0;
+  color: #6b6866;
+}
+
+#banner.jumbotron a.small {
+  font-size: 12px;
+  color: #6b6866;
+}
+
+.jubBlack{
+color: #fff;
+background-color: #231f20;
+}
+
+.buttonManeiro{
+background-color: #231f20;
+border-color: #fff;
 }
